@@ -1,0 +1,81 @@
+body {
+  background-image: url(https://st03.kakprosto.ru/images/article/2011/6/5/1_52550267ae05552550267ae0b4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.loginform {
+  border: 2px solid #f50a87;
+  background-color: gainsboro;
+  opacity: 0.7;
+  border-radius: 10px;
+  max-width: 500px;
+  height: 100%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 10px;
+  text-align: center;
+}
+.loginform #title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #c2086b;
+  padding: 10px 0px 20px 0px;
+}
+.loginform .form-group {
+  display: flex;
+  position: relative;
+  padding: 0px 30px 25px 30px;
+}
+.loginform label {
+  flex: 1;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 5px;
+  color: #750541;
+  font-weight: 600;
+  /* background-color: aquamarine; */
+}
+.loginform input {
+  flex: 1;
+  height: 25px;
+  margin-left: 10px;
+  border-style: none;
+  outline-style: none;
+  border-radius: 5px;
+  /* background-color: #c2086b; */
+}
+.loginform #btn {
+  width: 150px;
+  /* border: none; */
+  border-radius: 5px;
+  background-color: #750541;
+  color: aliceblue;
+  border-color: #752851;
+  padding: 5px;
+  margin-top: 20px;
+}
+.loginform #btn:active {
+  transform: scale(0.95);
+}
+.loginform i {
+  position: absolute;
+  right: 35px;
+  align-self: center;
+  color: #750541;
+}
+.loginform h4 {
+  margin-bottom: 40px;
+}
+.loginform u {
+  color: #750541;
+}
+/* label {
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+  color: #750541;
+  font-weight: 500;
+} */

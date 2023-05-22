@@ -1,0 +1,133 @@
+/* .card {
+  border: 2px solid #f50a87;
+  background-color: gainsboro;
+  opacity: 0.7;
+  border-radius: 10%;
+  max-width: 340px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px 10px 20px 10px;
+  text-align: center;
+  display: inline-block;
+}
+.card #txt1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.card #role {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 6px;
+  margin-bottom: 30px;
+  color: "#750541";
+}
+.card #role u {
+  color: "#750541";
+}
+.card .img-user {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .data {
+  display: flex;
+}
+.card .datas {
+  display: flex;
+  padding-top: 10px;
+}
+.card .names {
+  display: "inline-block";
+  flex: 1;
+  font-weight: 500;
+  padding-left: 30px;
+  text-align: start;
+}
+.card .values {
+  display: "inline-block";
+  flex: 1;
+  font-weight: 400;
+  padding-right: 20px;
+  text-align: start;
+}
+.card button{
+  background-color:lightgrey;
+  padding: 5px;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+/* .img-user FontAwesomeIcon {
+       size: 250px;
+      } */
+
+.empcontainer {
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: white;
+}
+
+.empcontainer .img-user {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empcontainer .img-user i {
+  font-size: 150px;
+}
+.empcontainer .img {
+  height: 200px;
+  width: 100%;
+  /* font-size: 100px; */
+}
+.empcontainer .box {
+  /* background-color: bisque; */
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.empcontainer .name {
+  width: 300px;
+  flex-direction: column;
+  flex: 1;
+  font-size: large;
+  font-weight: 600;
+}
+.empcontainer button {
+  border: none;
+  height: 28px;
+  width: 30px;
+  border-radius: 15px;
+  flex-basis: 30%;
+  padding: 5px;
+  font-weight: 600;
+  color: white;
+  background-color: #c2086b;
+}
+.empcontainer button:active {
+  transform: scale(0.95);
+}
+.empcontainer .id {
+  /* background-color: pink; */
+  font-size: large;
+  font-weight: 700;
+}
+.empcontainer .age {
+  background-color: pink;
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

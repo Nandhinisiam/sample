@@ -1,0 +1,29 @@
+.equal-height-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+      }
+.equal-height-container .first {
+        width: 30%;
+        margin: 50px auto 40px 180px;
+      }
+.equal-height-container .second {
+        width: 50%;
+        display: block;
+      }
+.equal-height-container .table{
+    margin: 10px;
+    border-collapse: collapse;
+    text-align: center;
+     border: 1px solid black;
+}
+.equal-height-container .table th,
+td,
+tr {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(215, 213, 213);
+}
+.equal-height-container .table th {
+  background-color: cadetblue;
+}

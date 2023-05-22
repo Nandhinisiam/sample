@@ -1,0 +1,30 @@
+.grid-form {
+  margin: 5px auto 5px auto;
+  display: flex;
+  justify-content: center;
+}
+.grid-form .iconPrev {
+  vertical-align: middle;
+  padding-right: 8px;
+}
+.grid-form .iconNext {
+  vertical-align: middle;
+  padding-left: 8px;
+}
+.grid-form .btn {
+  height: 30px;
+  padding-inline: 10px;
+  margin: auto 5px auto 5px;
+}
+.grid-form .btn:disabled{
+  background-color: grey;
+  color: black;
+}
+.grid-form button.currentPage {
+  color: white;
+  background-color: #750541;
+}
+.grid-form .iconDrop{
+  vertical-align: middle;
+  padding-right: 2px;
+}

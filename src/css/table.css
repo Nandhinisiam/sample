@@ -1,0 +1,16 @@
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+}
+.tbl th,
+td,
+tr {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(215, 213, 213);
+}
+.tbl th {
+  background-color: cadetblue;
+}

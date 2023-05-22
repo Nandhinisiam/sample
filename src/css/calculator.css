@@ -1,0 +1,195 @@
+/* .cals {
+  width: 300px;
+  height: 100%;
+  margin: auto;
+  margin-top: 6%;
+  background-color: #750541;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  border-radius: 20px;
+  box-shadow: inset 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.calculator {
+  margin: 12px;
+}
+.numbers {
+  margin: 2px;
+}
+input {
+  width: 225px;
+  height: 30px;
+  padding: 10px;
+  text-align: right;
+  border-radius: 20px;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+button {
+  width: 56px;
+  height: 56px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.95);
+} */
+/* #container.calulate {
+  height: 400px;
+  width: 280px;
+  background-color: darkgray;
+  border-radius: 10%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+}
+.calulate .cals {
+  flex: 4;
+}
+.calulate #result {
+  flex: 1;
+}
+.calulate .set {
+  display: flex;
+  justify-content: space-evenly;
+}
+.calulate .sets {
+  justify-content: space-between;
+}
+.calulate .numbers {
+  margin-top: 10px;
+}
+.calulate button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.calulate button:active {
+  transform: scale(0.95);
+}
+.calulate input {
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 30px auto 0px auto;
+  border: none;
+  background-color: white;
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  padding: 5px;
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+} */
+/* body{
+    background-image: none;
+} */
+#container {
+  height: auto;
+  width: 25%;
+  background-color: #750541;
+  opacity: 0.7;
+  border-radius: 10%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+}
+.calulate .cals {
+  /* flex-direction: row; */
+  flex: 4;
+}
+.calulate #result {
+  flex: 1;
+  width: 260px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 30px auto 10px auto;
+  border: none;
+  background-color: white;
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 5px;
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+}
+.calulate .set {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .sets {
+  justify-content: space-evenly;
+} */
+.calulate .numbers {
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.calulate .clr {
+  margin: 20px auto 10px auto;
+  height: 50px;
+  width: 110px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+/* .btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0 5px 6px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+} */
+.calulate button:active {
+  transform: scale(0.95);
+}
+/* #txtbox {
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 30px auto 0px auto;
+  border: none;
+  background-color: white;
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  padding: 5px;
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+} */
